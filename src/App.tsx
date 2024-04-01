@@ -1,9 +1,13 @@
 import './global.css'
 
-import {RouterProvider} from 'react-router-dom'
+import { RouterProvider } from 'react-router-dom'
+import { HelmetProvider, Helmet } from 'react-helmet-async'
 import { router } from './routes'
 export function App() {
   return (
-    <RouterProvider router={router} />
+    <HelmetProvider>
+      <Helmet titleTemplate='%s | pizza.shop'/>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   )
 }
