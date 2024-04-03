@@ -3,7 +3,6 @@ import {
   Line,
   LineChart,
   ResponsiveContainer,
-  Tooltip,
   XAxis,
   YAxis,
 } from 'recharts'
@@ -22,7 +21,7 @@ const data = [
   { date: '11/12', revenue: 766 },
   { date: '12/12', revenue: 3000 },
   { date: '13/12', revenue: 9543 },
-  { date: '14/12', revenue: 85 },
+  { date: '14/12', revenue: 1885 },
   { date: '15/12', revenue: 1345 },
   { date: '16/12', revenue: 6457 },
 ]
