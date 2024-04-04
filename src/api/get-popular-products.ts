@@ -1,7 +1,7 @@
 import { api } from '@/lib/axios'
 
 export type GetPopularProductsResponse = {
-  product: number
+  product: string
   amount: number
 }[]
 
